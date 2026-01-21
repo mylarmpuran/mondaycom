@@ -13,6 +13,27 @@ import { Rows3  } from "lucide-react";
 // import user5 from "../assets/profile-pictures/user5.jpg";
 // import user6 from "../assets/profile-pictures/user6.jpg";
 
+import trusted1 from "../assets/bd.png";
+import trusted2 from "../assets/carrefour.png";
+import trusted3 from "../assets/cocacola.png";
+import trusted4 from "../assets/glossier.png";
+import trusted5 from "../assets/Holt.png";
+import trusted6 from "../assets/lionsgate.png";
+import trusted7 from "../assets/universal.png";
+
+import Blur from '../assets/Blur.png'
+import Projects from "../assets/projects.png";
+import Tasks from "../assets/Task.png";
+import Marketing from "../assets/Marketing.png";
+import Design from "../assets/Design.png"
+import CRM from "../assets/CRM-firstfold-AI.png";
+import Product from "../assets/Product.png";
+import IT from "../assets/IT.png";
+import Operations from "../assets/Operations.png"
+import Gantt from "../assets/Gantt.png"
+
+
+
 export const navItems = [
   { label: "Products", href: "#" },
   { label: "Ai", href: "#" },
@@ -52,6 +73,100 @@ export const platForm = [
   },
 ]
 
+export const explore = [
+     {
+    id:0,
+    icon: <Layers />,
+    text: "Projects",
+    image: Blur
+  },
+    {
+    id:1,
+    icon: <Layers />,
+    text: "Projects",
+    image: Projects
+  },
+   {
+    id:2,
+    icon: <LayoutDashboard />,
+    text: "Tasks",    
+    image: Tasks
+  },
+   {
+    id:3,
+    icon: <Plug />,
+    text: "Marketing",    
+    image: Marketing
+  },
+  {
+    id:4,
+    icon: <Workflow />,
+    text: "Design",
+    image:Design
+  },
+    {
+    id:5,
+    icon: <Sparkles />,
+    text: "CRM",
+    image: CRM
+  },
+    {
+      id:6,
+    icon: <AudioWaveform  />,
+    text: "Software",    
+    image: Product,
+  },
+    {
+      id:7,
+    icon: <Rows3 />,
+    text: "IT",    
+    image: IT,
+  },
+   {
+    id:8,
+    icon: <Rows3 />,
+    text: "Operations",    
+    image: Operations,
+  }, 
+  {
+    id:9,
+    icon: <Rows3 />,
+    text: "Product",    
+    image: Gantt,
+  }, 
+]
+
+export const trusted = [
+    {
+    id:1,
+    image: trusted1
+  },
+  {
+    id:2,
+    image: trusted2
+  },
+  {
+    id:3,
+    image: trusted3
+  },
+  {
+    id:4,
+    image: trusted4
+  },
+  {
+    id:5,
+    image: trusted5
+  },
+  {
+    id:6,
+    image: trusted6
+  },
+  {
+    id:7,
+    image: trusted7
+  },
+
+]
 
 
 // export const testimonials = [

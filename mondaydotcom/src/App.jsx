@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import Nav from './scenes/Navbar.jsx'
 import './index.css'
 import Hero from './scenes/Hero.jsx'
+import Explore from './scenes/Explore.jsx'
+import Trusted from './scenes/Trusted.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -12,6 +14,8 @@ function App() {
     <>
       <Nav/>
       <Hero/>
+      <Explore/>
+      <Trusted/>
     </>
   )
 }
