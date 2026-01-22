@@ -193,7 +193,7 @@ export const AccBusinessItems = [
     bg: "bg-yellow-500"
   },
    {
-    text: "Consolidated made effortless",
+    text: "Consolidation made effortless",
     image: Vibe,
     note: "Reduce costs and clutter by replacing rigid, disconnected tools with custom apps and workflows tailored to how your business actually works.",
     bg: "bg-pink-300"
