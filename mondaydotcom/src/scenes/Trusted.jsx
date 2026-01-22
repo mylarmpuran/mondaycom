@@ -12,7 +12,7 @@ const Trusted = () => {
 
             {trusted.map((items, index) => (
 
-                <div key={index} className=" max-w-32 border border-green-500 ">
+                <div key={index} className=" max-w-32">
 
                     <img src={items.image} alt="" />
 

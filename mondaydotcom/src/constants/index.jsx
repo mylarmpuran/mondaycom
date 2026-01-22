@@ -3,8 +3,8 @@ import { LayoutDashboard } from "lucide-react";
 import { Plug } from "lucide-react";
 import { Workflow } from "lucide-react";
 import { Sparkles } from "lucide-react";
-import { AudioWaveform  } from "lucide-react";
-import { Rows3  } from "lucide-react";
+import { AudioWaveform } from "lucide-react";
+import { Rows3 } from "lucide-react";
 
 // import user1 from "../assets/profile-pictures/user1.jpg";
 // import user2 from "../assets/profile-pictures/user2.jpg";
@@ -13,6 +13,8 @@ import { Rows3  } from "lucide-react";
 // import user5 from "../assets/profile-pictures/user5.jpg";
 // import user6 from "../assets/profile-pictures/user6.jpg";
 
+// trusted brands
+
 import trusted1 from "../assets/bd.png";
 import trusted2 from "../assets/carrefour.png";
 import trusted3 from "../assets/cocacola.png";
@@ -20,6 +22,8 @@ import trusted4 from "../assets/glossier.png";
 import trusted5 from "../assets/Holt.png";
 import trusted6 from "../assets/lionsgate.png";
 import trusted7 from "../assets/universal.png";
+
+//Explore
 
 import Blur from '../assets/Blur.png'
 import Projects from "../assets/projects.png";
@@ -33,6 +37,12 @@ import Operations from "../assets/Operations.png"
 import Gantt from "../assets/Gantt.png"
 
 
+//Accelerate Business
+
+import Sidekick from "../assets/accelerate-sidekick-v1.avif";
+import Agent from "../assets/accelerate-agent-v1.avif"
+import Vibe from "../assets/accelerate-vibe-v1.avif"
+
 
 export const navItems = [
   { label: "Products", href: "#" },
@@ -43,128 +53,152 @@ export const navItems = [
 ];
 
 export const platForm = [
-   {
+  {
     icon: <Layers />,
-    text: "Platform overview",    
+    text: "Platform overview",
   },
-   {
+  {
     icon: <LayoutDashboard />,
-    text: "Dashboards & reporting",    
+    text: "Dashboards & reporting",
   },
-   {
+  {
     icon: <Plug />,
-    text: "Integrations",    
+    text: "Integrations",
   },
   {
     icon: <Workflow />,
-    text: "Automations",    
+    text: "Automations",
   },
-    {
+  {
     icon: <Sparkles />,
-    text: "Ai",    
+    text: "Ai",
   },
-    {
-    icon: <AudioWaveform  />,
-    text: "mandoay MCP",    
+  {
+    icon: <AudioWaveform />,
+    text: "mandoay MCP",
   },
-    {
+  {
     icon: <Rows3 />,
-    text: "Our infrastructure",    
+    text: "Our infrastructure",
   },
 ]
 
 export const explore = [
-     {
-    id:0,
+  {
+    id: 0,
     icon: <Layers />,
     text: "Projects",
     image: Blur
   },
-    {
-    id:1,
+  {
+    id: 1,
     icon: <Layers />,
     text: "Projects",
     image: Projects
   },
-   {
-    id:2,
+  {
+    id: 2,
     icon: <LayoutDashboard />,
-    text: "Tasks",    
+    text: "Tasks",
     image: Tasks
   },
-   {
-    id:3,
+  {
+    id: 3,
     icon: <Plug />,
-    text: "Marketing",    
+    text: "Marketing",
     image: Marketing
   },
   {
-    id:4,
+    id: 4,
     icon: <Workflow />,
     text: "Design",
-    image:Design
+    image: Design
   },
-    {
-    id:5,
+  {
+    id: 5,
     icon: <Sparkles />,
     text: "CRM",
     image: CRM
   },
-    {
-      id:6,
-    icon: <AudioWaveform  />,
-    text: "Software",    
+  {
+    id: 6,
+    icon: <AudioWaveform />,
+    text: "Software",
     image: Product,
   },
-    {
-      id:7,
+  {
+    id: 7,
     icon: <Rows3 />,
-    text: "IT",    
+    text: "IT",
     image: IT,
   },
-   {
-    id:8,
-    icon: <Rows3 />,
-    text: "Operations",    
-    image: Operations,
-  }, 
   {
-    id:9,
+    id: 8,
     icon: <Rows3 />,
-    text: "Product",    
+    text: "Operations",
+    image: Operations,
+  },
+  {
+    id: 9,
+    icon: <Rows3 />,
+    text: "Product",
     image: Gantt,
-  }, 
+  },
 ]
 
 export const trusted = [
-    {
-    id:1,
+  {
+    id: 1,
     image: trusted1
   },
   {
-    id:2,
+    id: 2,
     image: trusted2
   },
   {
-    id:3,
+    id: 3,
     image: trusted3
   },
   {
-    id:4,
+    id: 4,
     image: trusted4
   },
   {
-    id:5,
+    id: 5,
     image: trusted5
   },
   {
-    id:6,
+    id: 6,
     image: trusted6
   },
   {
-    id:7,
+    id: 7,
     image: trusted7
   },
+
+]
+
+export const AccBusinessItems = [
+  {
+    text: "Every persons work, exponentially better",
+    image: Sidekick,
+    note: "Empower every person to plan, execute, and deliver exponentially with the most advanced AI models and capabilities built directly in the context of work",
+    bg: "bg-blue-500"
+
+  },
+   {
+    text: "Unlimited workforce of AI agents",
+    image: Agent,
+    note: "Achieve impact faster with an unlimited workforce of AI agents that can take on specialized tasks and support multiple functions for automated execution at scale.",
+    bg: "bg-yellow-500"
+  },
+   {
+    text: "Consolidated made effortless",
+    image: Vibe,
+    note: "Reduce costs and clutter by replacing rigid, disconnected tools with custom apps and workflows tailored to how your business actually works.",
+    bg: "bg-pink-300"
+  },
+
 
 ]
 

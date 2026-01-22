@@ -6,6 +6,8 @@ import './index.css'
 import Hero from './scenes/Hero.jsx'
 import Explore from './scenes/Explore.jsx'
 import Trusted from './scenes/Trusted.jsx'
+import Accelerate from './scenes/Accelerate.jsx'
+import AccelerateBusiness from './scenes/AccelerateBusiness.jsx'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,6 +18,8 @@ function App() {
       <Hero/>
       <Explore/>
       <Trusted/>
+      <Accelerate/>
+      <AccelerateBusiness/>
     </>
   )
 }
